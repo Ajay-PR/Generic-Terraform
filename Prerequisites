@@ -1,16 +1,16 @@
-1. Install Virtual box:
+1. Install Virtual box: [In laptop]
    Link : https://www.virtualbox.org/wiki/Downloads
 
-2. Install Vagrant:
+2. Install Vagrant: [In laptop]
    Link : https://www.vagrantup.com/downloads
 
-3. Download VSCode:
+3. Download VSCode: [In laptop]
    Link : https://code.visualstudio.com/download
   
 4. Open one AWS account:
    Link : https://aws.amazon.com/console/
 
-5. Create shared folder [In any drive]
+5. Create shared folder [In any drive of your laptop]
    [Folder structure]
    D drive :
     - Shared 
