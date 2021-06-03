@@ -1,0 +1,11 @@
+Objective :
+* Create a complete configuration which creates Public & Private network.
+
+Blocks to be included :
+* Create 1 VPC for Public subnet
+* Create 1 subnet for Public
+* Create and attach Internet gateway with public VPC
+* Create and attach Routing table for Public subnet
+
+* Create 1 VPC for Private subnet
+* Create 1 subnet for Private
