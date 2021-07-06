@@ -1,0 +1,11 @@
+---
+  - hosts: all
+    gather_facts: no
+    tasks: 
+      - name: Copy file with owner & permissions
+        copy:
+          src: devops_file
+          dest: /tmp
+          owner: ec2-user
+          group: root
+          mode: '0777'

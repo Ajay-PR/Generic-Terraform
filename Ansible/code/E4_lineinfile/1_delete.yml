@@ -1,0 +1,11 @@
+---
+  - hosts: all
+    gather_facts: no
+    tasks:
+        - name: Delete line from a file
+          lineinfile:
+            path: /tmp/line_in_file
+            regexp: '^selinux'
+            state: absent 
+            
+          
